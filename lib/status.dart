@@ -57,47 +57,38 @@ class _StatusState extends State<Status> {
           Statusitem(
             time: "Just now",
             title: "Mohamed Aiduros",
-            image: const AssetImage("lib/assets/Home.jpg"),
           ),
           Statusitem(
             time: "14 minutes ago",
             title: "Abukar Hasan",
-            image: const AssetImage("lib/assets/Home.jpg"),
           ),
           Statusitem(
             time: "20 minutes ago",
             title: "Abdullahi dhaqane",
-            image: const AssetImage("lib/assets/Home.jpg"),
           ),
           Statusitem(
             time: "30 minutes ago",
             title: "Shukri Abdullahi",
-            image: const AssetImage("lib/assets/Home.jpg"),
           ),
           Statusitem(
             time: "40 minutes ago",
             title: "Ismail Mohamed",
-            image: const AssetImage("lib/assets/Home.jpg"),
           ),
           Statusitem(
             time: "50 minutes ago",
             title: "Ubah abdi",
-            image: const AssetImage("lib/assets/Home.jpg"),
           ),
           Statusitem(
             time: "today, 11:30",
             title: "Ahmed Mohamed",
-            image: const AssetImage("lib/assets/Home.jpg"),
           ),
           Statusitem(
             time: "today, 11:20",
             title: "Mohamed Aiduros",
-            image: const AssetImage("lib/assets/Home.jpg"),
           ),
           Statusitem(
             time: "today, 9:00",
             title: "Mohamed Aiduros",
-            image: const AssetImage("lib/assets/Home.jpg"),
           ),
         ],
       ),

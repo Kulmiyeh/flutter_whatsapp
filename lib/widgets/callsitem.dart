@@ -5,10 +5,8 @@ class Callsitem extends StatelessWidget {
       {super.key,
       this.calltypeicon,
       this.icon,
-      this.image,
       this.time,
       this.title});
-  ImageProvider<Object>? image;
   String? title;
   IconData? icon;
   String? time;
@@ -16,6 +14,7 @@ class Callsitem extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+     for(int num= 1; num>=10; num++);
     return ListTile(
       onTap: () {},
       leading: Container(
@@ -26,7 +25,7 @@ class Callsitem extends StatelessWidget {
         ),
         child: CircleAvatar(
           radius: 70,
-          backgroundImage: image,
+        backgroundImage:AssetImage("lib/assets/image $num.jpeg"),
         ),
       ),
       title: Text(

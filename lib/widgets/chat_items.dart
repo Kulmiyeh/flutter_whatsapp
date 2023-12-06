@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 
 class Messages extends StatelessWidget {
   String? count;
-  ImageProvider<Object>? image;
   String? subtitle;
   String? title;
   String? time;
@@ -10,13 +9,13 @@ class Messages extends StatelessWidget {
   Messages(
       {super.key,
       this.title,
-      this.image,
       this.subtitle,
       this.count,
       this.time});
 
   @override
   Widget build(BuildContext context) {
+     for(int num= 1; num>=10; num++);
     return ListTile(
         onTap: () {},
         minVerticalPadding: 17,
@@ -28,7 +27,7 @@ class Messages extends StatelessWidget {
               const BoxDecoration(color: Colors.grey, shape: BoxShape.circle),
           child: CircleAvatar(
             radius: 70,
-            backgroundImage: image,
+             backgroundImage:AssetImage("lib/assets/image $num.jpeg"),
           ),
         ),
         title: Text(

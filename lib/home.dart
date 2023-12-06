@@ -17,7 +17,7 @@ class _HomeState extends State<Home> {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: DefaultTabController(
-        length: 3,
+        length: 4,
         child: Scaffold(
           // backgroundColor: kInactiveCardColor,
           appBar: AppBar(
