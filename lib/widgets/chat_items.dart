@@ -5,17 +5,18 @@ class Messages extends StatelessWidget {
   String? subtitle;
   String? title;
   String? time;
+  ImageProvider<Object>? image;
 
   Messages(
       {super.key,
       this.title,
       this.subtitle,
       this.count,
+      this.image,
       this.time});
 
   @override
   Widget build(BuildContext context) {
-     for(int num= 1; num>=10; num++);
     return ListTile(
         onTap: () {},
         minVerticalPadding: 17,
@@ -27,7 +28,7 @@ class Messages extends StatelessWidget {
               const BoxDecoration(color: Colors.grey, shape: BoxShape.circle),
           child: CircleAvatar(
             radius: 70,
-             backgroundImage:AssetImage("lib/assets/image $num.jpeg"),
+             backgroundImage: image
           ),
         ),
         title: Text(

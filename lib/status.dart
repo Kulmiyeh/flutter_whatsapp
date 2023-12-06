@@ -27,7 +27,7 @@ class _StatusState extends State<Status> {
               ),
               child: CircleAvatar(
                 radius: 70,
-                backgroundImage: const AssetImage("lib/assets/profile.jpg"),
+                backgroundImage: const AssetImage("lib/assets/image 16.jpeg"),
                 child: Container(
                   margin: const EdgeInsets.only(top: 30, left: 30),
                   decoration: BoxDecoration(
@@ -57,38 +57,47 @@ class _StatusState extends State<Status> {
           Statusitem(
             time: "Just now",
             title: "Mohamed Aiduros",
+             image: const AssetImage("lib/assets/image 5.jpeg"),
           ),
           Statusitem(
             time: "14 minutes ago",
             title: "Abukar Hasan",
+             image: const AssetImage("lib/assets/image 3.jpeg"),
           ),
           Statusitem(
             time: "20 minutes ago",
             title: "Abdullahi dhaqane",
+             image: const AssetImage("lib/assets/image 4.jpeg"),
           ),
           Statusitem(
             time: "30 minutes ago",
             title: "Shukri Abdullahi",
+             image: const AssetImage("lib/assets/image 6.jpeg"),
           ),
           Statusitem(
             time: "40 minutes ago",
             title: "Ismail Mohamed",
+             image: const AssetImage("lib/assets/image 7.jpeg"),
           ),
           Statusitem(
             time: "50 minutes ago",
             title: "Ubah abdi",
+             image: const AssetImage("lib/assets/image 8.jpeg"),
           ),
           Statusitem(
             time: "today, 11:30",
             title: "Ahmed Mohamed",
+             image: const AssetImage("lib/assets/image 9.jpeg"),
           ),
           Statusitem(
             time: "today, 11:20",
             title: "Mohamed Aiduros",
+             image: const AssetImage("lib/assets/image 10.jpeg"),
           ),
           Statusitem(
             time: "today, 9:00",
             title: "Mohamed Aiduros",
+             image: const AssetImage("lib/assets/image 11.jpeg"),
           ),
         ],
       ),
